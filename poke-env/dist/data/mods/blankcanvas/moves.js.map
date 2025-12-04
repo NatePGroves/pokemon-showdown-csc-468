@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/blankcanvas/moves.ts"],
+  "sourcesContent": ["export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {\r\n\tmeditate: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: null,\r\n\t},\r\n\tdragonrage: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: null,\r\n\t},\r\n\tboneclub: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: null,\r\n\t},\r\n\tpowershift: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: null,\r\n\t},\r\n\tblazingtorque: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: null,\r\n\t},\r\n\tcamouflage: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: null,\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAA8D;AAAA,EAC1E,UAAU;AAAA,IACT,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,UAAU;AAAA,IACT,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,eAAe;AAAA,IACd,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AACD;",
+  "names": []
+}

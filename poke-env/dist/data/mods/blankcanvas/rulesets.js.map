@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/blankcanvas/rulesets.ts"],
+  "sourcesContent": ["export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable = {\r\n\tspriteviewer: {\r\n\t\teffectType: 'ValidatorRule',\r\n\t\tname: 'Sprite Viewer',\r\n\t\tdesc: \"Displays a fakemon's sprite in chat when it is switched in for the first time\",\r\n\t\tonBegin() {\r\n\t\t\tthis.add('rule', 'Sprite Viewer: Displays sprites in chat');\r\n\t\t},\r\n\t\tonSwitchIn(pokemon) {\r\n\t\t\tif (!this.effectState[pokemon.species.id]) {\r\n\t\t\t\tthis.add('-message', `${pokemon.species.name}'s Sprite:`);\r\n\t\t\t\tthis.add(`raw|<img src=\"https://raw.githubusercontent.com/scoopapa/DH2/refs/heads/main/data/mods/blankcanvas/sprites/front/${pokemon.species.id}.png\" height=\"96\" width=\"96\">`);\r\n\t\t\t\tthis.effectState[pokemon.species.id] = true;\r\n\t\t\t}\r\n\t\t},\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,WAAqE;AAAA,EACjF,cAAc;AAAA,IACb,YAAY;AAAA,IACZ,MAAM;AAAA,IACN,MAAM;AAAA,IACN,UAAU;AACT,WAAK,IAAI,QAAQ,yCAAyC;AAAA,IAC3D;AAAA,IACA,WAAW,SAAS;AACnB,UAAI,CAAC,KAAK,YAAY,QAAQ,QAAQ,EAAE,GAAG;AAC1C,aAAK,IAAI,YAAY,GAAG,QAAQ,QAAQ,IAAI,YAAY;AACxD,aAAK,IAAI,oHAAoH,QAAQ,QAAQ,EAAE,+BAA+B;AAC9K,aAAK,YAAY,QAAQ,QAAQ,EAAE,IAAI;AAAA,MACxC;AAAA,IACD;AAAA,EACD;AACD;",
+  "names": []
+}
